@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var Utils_1 = require("./utils/Utils");
 var EMPTY_TITLE_FAILURE_STRING = 'Title elements must not be empty';
 var LONG_TITLE_FAILURE_STRING = 'Title length must not be longer than 60 characters';

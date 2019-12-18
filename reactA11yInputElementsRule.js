@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var JsxAttribute_1 = require("./utils/JsxAttribute");
 exports.MISSING_PLACEHOLDER_INPUT_FAILURE_STRING = 'Input elements must include default, place-holding characters if empty';
 exports.MISSING_PLACEHOLDER_TEXTAREA_FAILURE_STRING = 'Textarea elements must include default, place-holding characters if empty';

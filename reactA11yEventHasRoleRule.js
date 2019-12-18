@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var JsxAttribute_1 = require("./utils/JsxAttribute");
 var getImplicitRole_1 = require("./utils/getImplicitRole");
 var DOM_SCHEMA = require('./utils/attributes/domSchema.json');

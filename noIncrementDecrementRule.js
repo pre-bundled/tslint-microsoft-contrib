@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var OPTION_ALLOW_FOR_LOOPS = 'allow-for-loops';
 var Rule = (function (_super) {
     __extends(Rule, _super);

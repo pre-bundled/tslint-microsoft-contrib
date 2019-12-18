@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var tsutils = require("tsutils");
+var ts = require("./../pre-bundled/node_modules/typescript");
+var tsutils = require("./../pre-bundled/node_modules/tsutils");
 var Scope_1 = require("./Scope");
 var TypeGuard_1 = require("./TypeGuard");
 var AstUtils_1 = require("./AstUtils");

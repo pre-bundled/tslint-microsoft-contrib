@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var ChaiUtils_1 = require("./utils/ChaiUtils");
 var BASE_ERROR = 'Found chai call with vague failure message;';
 var FAILURE_STRING = BASE_ERROR + " please add an explicit failure message";

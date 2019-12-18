@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
+var ts = require("./../pre-bundled/node_modules/typescript");
 var TypeGuard_1 = require("./TypeGuard");
 function getPropName(node) {
     if (!TypeGuard_1.isJsxAttribute(node)) {

@@ -17,9 +17,9 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Lint = require("tslint");
-var tsutils = require("tsutils");
-var ts = require("typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
 var AstUtils_1 = require("./utils/AstUtils");
 var FORBIDDEN_IMPORT_FAILURE_STRING = 'Found child_process import';
 var FOUND_EXEC_FAILURE_STRING = 'Found child_process.exec() with non-literal first argument';

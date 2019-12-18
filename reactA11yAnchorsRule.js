@@ -17,9 +17,9 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var Utils_1 = require("./utils/Utils");
 var getImplicitRole_1 = require("./utils/getImplicitRole");
 var JsxAttribute_1 = require("./utils/JsxAttribute");

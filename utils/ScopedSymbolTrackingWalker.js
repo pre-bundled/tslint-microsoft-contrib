@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
+var ts = require("./../pre-bundled/node_modules/typescript");
+var Lint = require("./../pre-bundled/node_modules/tslint");
 var AstUtils_1 = require("./AstUtils");
 var Scope_1 = require("./Scope");
 var TypeGuard_1 = require("./TypeGuard");

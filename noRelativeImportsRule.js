@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("./pre-bundled/node_modules/typescript");
+var Lint = require("./pre-bundled/node_modules/tslint");
+var tsutils = require("./pre-bundled/node_modules/tsutils");
 var OPTION_ALLOW_SIBLINGS = 'allow-siblings';
 var FAILURE_BODY_RELATIVE = 'module is being loaded from a relative path. Please use an absolute path';
 var FAILURE_BODY_SIBLINGS = 'module path starts with reference to parent directory. Please use an absolute path or sibling files/folders';
