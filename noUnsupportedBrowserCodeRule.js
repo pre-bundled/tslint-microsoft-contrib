@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils_1 = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils_1 = require("pre-bundled/node_modules/tsutils");
 var UNSPECIFIED_BROWSER_VERSION = 'unspecified version';
 var JSDOC_BROWSERSPECIFIC = '@browserspecific';
 var COMMENT_BROWSERSPECIFIC = 'Browser Specific:';

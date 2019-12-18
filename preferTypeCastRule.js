@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
 var AstUtils_1 = require("./utils/AstUtils");
 var FAILURE_STRING = 'Found as-cast instead of a traditional type-cast. Please convert to a type-cast: ';
 var Rule = (function (_super) {

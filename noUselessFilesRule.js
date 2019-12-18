@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Lint = require("tslint");
+var Lint = require("pre-bundled/node_modules/tslint");
 var FAILURE_STRING_EMPTY = 'This file is empty and should be deleted.';
 var FAILURE_STRING_COMMENTS = 'This file only contains comments and should be deleted.';
 var Rule = (function (_super) {

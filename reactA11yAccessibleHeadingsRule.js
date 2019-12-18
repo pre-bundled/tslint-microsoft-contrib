@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils = require("pre-bundled/node_modules/tsutils");
 var BAD_ORDER_HEADING_FAILURE_STRING = "Heading elements shouldn't increase by more then one level consecutively";
 var EMPTY_HEADING_FAILURE_STRING = 'Heading elements must not be empty';
 var BAD_HEADING_LENGTH_STRING = 'Heading content should be concise';

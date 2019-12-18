@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils = require("pre-bundled/node_modules/tsutils");
 var AstUtils_1 = require("./utils/AstUtils");
 var FAILURE_UNDEFINED_INIT = 'Unnecessary field initialization. Field explicitly initialized to undefined: ';
 var FAILURE_UNDEFINED_DUPE = 'Unnecessary field initialization. Field value already initialized in declaration: ';

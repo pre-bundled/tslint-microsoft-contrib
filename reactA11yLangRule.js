@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils = require("pre-bundled/node_modules/tsutils");
 var FAILURE_MISSING_LANG = 'An html element is missing the lang attribute';
 var FAILURE_WRONG_LANG_CODE = 'Lang attribute does not have a valid value. Found: ';
 var LANGUAGE_CODES = [

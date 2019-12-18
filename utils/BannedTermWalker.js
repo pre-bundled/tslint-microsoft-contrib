@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var tsutils = require("tsutils");
+var ts = require("../pre-bundled/node_modules/typescript");
+var tsutils = require("../pre-bundled/node_modules/tsutils");
 var TypeGuard_1 = require("./TypeGuard");
 function bannedTermWalker(ctx) {
     var _a = ctx.options, failureString = _a.failureString, bannedTerms = _a.bannedTerms, allowQuotedProperties = _a.allowQuotedProperties;

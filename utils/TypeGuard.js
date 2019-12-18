@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
+var ts = require("../pre-bundled/node_modules/typescript");
 function isJsxAttribute(node) {
     return node && node.kind === ts.SyntaxKind.JsxAttribute;
 }

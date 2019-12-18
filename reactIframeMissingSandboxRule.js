@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils = require("pre-bundled/node_modules/tsutils");
 var FAILURE_NOT_FOUND = 'An iframe element requires a sandbox attribute';
 var FAILURE_INVALID_ENTRY = 'An iframe element defines an invalid sandbox attribute: ';
 var FAILURE_INVALID_COMBINATION = 'An iframe element defines a sandbox with both allow-scripts and allow-same-origin';
