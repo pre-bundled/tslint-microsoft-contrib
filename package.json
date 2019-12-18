@@ -1,6 +1,6 @@
 {
-  "name": "tslint-microsoft-contrib",
-  "version": "6.2.0",
+  "name": "@pre-bundled/tslint-microsoft-contrib",
+  "version": "6.2.0-patch-2",
   "description": "TSLint Rules for Microsoft",
   "repository": {
     "type": "git",
@@ -72,11 +72,7 @@
     "watch:run-tests": "node build-tasks/watch-run-tests.js",
     "watch:src": "tsc --watch"
   },
-  "dependencies": {
-    "tsutils": "^2.27.2 <2.29.0",
-    "tslint": "^5.1.0",
-    "typescript": "^2.1.0 || ^3.0.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "tslint": "^5.1.0",
     "typescript": "^2.1.0 || ^3.0.0"
