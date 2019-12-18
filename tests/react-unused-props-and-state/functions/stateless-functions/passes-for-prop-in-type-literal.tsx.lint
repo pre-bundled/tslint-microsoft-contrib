@@ -1,7 +1,0 @@
-import React = require('react');
-
-export const SpanWithText: React.SFC<{
-    readonly text: string
-}> = (props) => (
-    <span>{props.text}</span>
-)

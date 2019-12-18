@@ -1,8 +1,0 @@
-{
-    "rules": {
-        "no-relative-imports": [true, "allow-siblings"]
-    },
-    "jsRules": {
-        "no-relative-imports": [true, "allow-siblings"]
-    }
-}
