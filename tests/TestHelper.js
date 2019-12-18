@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Lint = require("tslint");
+var Lint = require("../pre-bundled/node_modules/tslint");
 var fs = require("fs");
 var chai = require("chai");
 var Utils_1 = require("../utils/Utils");
-var ts = require("typescript");
+var ts = require("../pre-bundled/node_modules/typescript");
 var TestHelper;
 (function (TestHelper) {
     var program;

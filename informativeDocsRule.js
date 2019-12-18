@@ -17,8 +17,8 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Lint = require("tslint");
-var ts = require("typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var ts = require("pre-bundled/node_modules/typescript");
 var NodeDocs_1 = require("./utils/NodeDocs");
 var defaultUselessWords = ['a', 'an', 'of', 'our', 'the'];
 var defaultAliases = {

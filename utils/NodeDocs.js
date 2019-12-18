@@ -3,8 +3,8 @@
  * Copyright Microsoft Corporation. All rights reserved.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var tsutils = require("tsutils");
-var ts = require("typescript");
+var tsutils = require("../pre-bundled/node_modules/tsutils");
+var ts = require("../pre-bundled/node_modules/typescript");
 var nodeKindsWithNameIdentifiers = new Set([
     ts.SyntaxKind.ClassDeclaration,
     ts.SyntaxKind.EnumDeclaration,

@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
-var tslint_1 = require("tslint");
+var tslint_1 = require("../pre-bundled/node_modules/tslint");
 var BaseFormatter = (function (_super) {
     __extends(BaseFormatter, _super);
     function BaseFormatter(ruleName, applyFix) {

@@ -13,10 +13,10 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
+var ts = require("pre-bundled/node_modules/typescript");
 var Utils_1 = require("./utils/Utils");
-var Lint = require("tslint");
-var tsutils = require("tsutils");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils = require("pre-bundled/node_modules/tsutils");
 var Rule = (function (_super) {
     __extends(Rule, _super);
     function Rule() {

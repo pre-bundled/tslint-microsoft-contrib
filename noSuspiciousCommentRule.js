@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ts = require("typescript");
-var Lint = require("tslint");
-var tsutils_1 = require("tsutils");
+var ts = require("pre-bundled/node_modules/typescript");
+var Lint = require("pre-bundled/node_modules/tslint");
+var tsutils_1 = require("pre-bundled/node_modules/tsutils");
 var FAILURE_STRING = 'Suspicious comment found: ';
 var SUSPICIOUS_WORDS = ['BUG', 'HACK', 'FIXME', 'LATER', 'LATER2', 'TODO'];
 var FAILURE_STRING_OPTION = '\nTo disable this warning, the comment should include one of the following regex: ';

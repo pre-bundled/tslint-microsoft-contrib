@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Lint = require("tslint");
+var Lint = require("pre-bundled/node_modules/tslint");
 var BannedTermWalker_1 = require("./utils/BannedTermWalker");
 var TypeGuard_1 = require("./utils/TypeGuard");
 var Rule = (function (_super) {
